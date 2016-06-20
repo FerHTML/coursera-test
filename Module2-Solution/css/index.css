@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color:#D7C1A1;
+    font-family: Georgia, “Times New Roman”, Times, serif; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #1F170C;
+    font-size: 175%;
+}
+
+h2 {
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+    background-color: #DAD1D1; 
+    font-size: 125%;
+}
+
+p {
+  color:black;
+}
+
+.section{
+    border: 2px solid black;
+    position: relative;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width:95%;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-top: 35px;
+    min-width: 300px;
+    overflow: hidden;
+    background-color: #E7E0BB;
+}
+
+.chicken {
+    background-color:#F6C882;
+}
+
+.beef{
+    background-color:#EB8788;
+}
+
+.sushi{
+    background-color:#C5EBF3;
+}
+
+.row {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;  }
+}
