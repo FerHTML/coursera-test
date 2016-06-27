@@ -1,0 +1,62 @@
+body {
+  font-size: 16px;
+}
+
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  border: solid black;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -12px;
+}
+
+#collapsable-nav{
+  background-color: #6A2323;
+}
+
+@media (min-width: 767px){
+  #nav-list a {
+    visibility: hidden;
+  }
+}
+
+#cuerpo{
+  height: 1000px;
+  background-color: #6A2323;
+  color: white;
+  border: solid black;
+}
+
+h2{
+  color: white;
+}
+
+#up{
+  margin-top: 100px;
+}
+
+
+
