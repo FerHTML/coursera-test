@@ -43,6 +43,12 @@ body {
   }
 }
 
+@media (max-width: 766px){
+  #nav-list a:hover {
+    background-color: black;
+  }
+}
+
 #cuerpo{
   height: 1000px;
   background-color: #6A2323;
